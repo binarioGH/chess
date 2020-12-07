@@ -59,3 +59,10 @@ body{
 	vertical-align: top;
 
 }
+
+.piece{
+	width: 80%;
+	height: 80%;
+	margin-top: 10%;
+	margin-left: 10%;
+}

@@ -35,3 +35,18 @@ for (rowi = 0; rowi < 8; rowi++) {
         }
     }
 }
+
+
+
+// Add Chess Pieces
+var i;
+var boxs = document.getElementsByClassName("box");
+var piecesimg = ["tower.png", "knight.png", "bishop.png", "queen.png", "king.png", "bishop.png", "knight.png", "tower.png"];
+for(i = 8; i < 16; i++){
+	boxs[i].innerHTML = "<div clss='piece'><img src='images\\blackpawn.png' class='piece'></div>"; // Black pawn
+	boxs[i + 40].innerHTML = "<div clss='piece'><img src='images\\whitepawn.png' class='piece'></div>"; // White pawn
+	boxs[i-8].innerHTML = "<div clss='piece'><img src='images\\black"+ piecesimg[i-8] +"' class='piece'></div>";
+	boxs[i+48].innerHTML = "<div clss='piece'><img src='images\\white"+ piecesimg[i-8] +"' class='piece'></div>";
+}
+
+var pieces = document.getElementsByClassName("piece")
