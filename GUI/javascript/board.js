@@ -2,7 +2,7 @@
 var board = document.getElementById("board");
 var w = window.innerWidth;
 
-board.style.marginLeft = "" + w/2-(board.offsetWidth/2) + "px";
+//board.style.marginLeft = "" + w/2-(board.offsetWidth/2) + "px";
 
 
 //create board

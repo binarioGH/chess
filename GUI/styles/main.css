@@ -2,47 +2,60 @@ html, body { height: 100% }
 
 body{
 	overflow-x: hidden;
-	background: #524a46;
+	background: rgb(49 46 43);
 }
 
 #title{
 	font-family: tahoma;
 	color:white;
 	font-size:350%;
-	background: #272522;
-	color: #769656;
+	background: rgb(39 37 34);
+	color: rgb(239 239 239);
 	padding: 15px;
 	width:100%;
 	text-align: center;
+	margin-bottom: 2%;
 }
+.lined{
+	display: inline-block;
+}
+
 #boardcontainer{
-	width:100%;
-	margin-top: 2%;
+	width: 80vh;
+  	margin-left: 60vh;
 }
 
 
 #board{
-	width:550px;
-	height: 550px;
+	width:80vh;
+	height: 80vh;
 	border:3px solid black;
 	background: white;
+
 	
 }
 
 .row{
 	width:100%;
-	height: 68.75px;
+	height: 10vh;
 }
 
 .box{
 	display: table-cell;
-	width:68.75px;
-	height: 68.75px;
-	background:#eeeed2;
-	border: 1px solid black; 
-
+	width:10vh;
+	height: 10vh;
+	background:rgb(239 239 239);
 }
 
 .black{
-	background: #85aa53;
+	background: rgb(136 119 183);
+}
+
+#chat{
+	display: inline;
+	background: red;/*#10002b;*/
+	height: 80vh;
+	width: 30vh;
+	vertical-align: top;
+
 }
